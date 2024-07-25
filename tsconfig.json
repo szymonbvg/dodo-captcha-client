@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "ES2022",
+    "lib": ["dom", "ES2022"],
+    "sourceMap": false,
+    "declaration": true,
+    "declarationDir": "declarations",
+    "stripInternal": true,
+    "moduleResolution": "Bundler",
+    "module": "ES2022"
+  },
+  "include": ["src/**/*.ts"],
+  "extends": "@tsconfig/node20/tsconfig.json"
+}
